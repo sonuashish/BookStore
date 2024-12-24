@@ -1,0 +1,20 @@
+GlobalBookShop/
+│
+├── README.md                      # Full documentation of the setup process
+├── scripts/                       # Automation scripts
+│   ├── setup_ec2.sh               # Script to install LAMP and deploy app
+│   ├── connect_rds.sh             # Script to connect EC2 with RDS
+│   └── db_seed.sql                # SQL script to create database and insert records
+│
+├── application/                   # Source code for the PHP application
+│   ├── index.php                  # Main application page
+│   ├── dbconnect.php              # Database connection file
+│   └── css/                       # Stylesheets, if any
+│
+├── infrastructure/                # AWS architecture details
+│   ├── auto_scaling_details.txt   # Auto Scaling Group setup instructions
+│   ├── load_balancer_details.txt  # ALB configuration steps
+│   ├── security_groups.txt        # Security Group details
+│   └── cloudwatch_alarms.txt      # CloudWatch monitoring setup
+│
+└── LICENSE                        # Optional: License file for your project
